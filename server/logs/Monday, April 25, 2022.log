@@ -1,0 +1,20 @@
+Server started on 5000
+
+Connected to MongoDB database...
+
+TypeError: Assignment to constant variable.
+    at Strategy._verify (/home/toy/Desktop/full-mern-stack-video-part1/server/passport.js:43:28)
+[90m    at processTicksAndRejections (internal/process/task_queues.js:97:5)[39m
+
+yep there a user?//
+
+done
+
+yep there a user?//
+
+done
+
+yep there a user?//
+
+done
+

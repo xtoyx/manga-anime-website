@@ -1,0 +1,62 @@
+{
+    "name": "client",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {
+        "@emotion/react": "^11.7.1",
+        "@emotion/styled": "^11.6.0",
+        "@fortawesome/fontawesome-svg-core": "^1.2.36",
+        "@fortawesome/free-solid-svg-icons": "^5.15.4",
+        "@fortawesome/react-fontawesome": "^0.1.16",
+        "@mui/material": "^5.2.8",
+        "@testing-library/jest-dom": "^5.11.4",
+        "@testing-library/react": "^11.1.0",
+        "@testing-library/user-event": "^12.1.10",
+        "axios": "^0.24.0",
+        "bootstrap-icons": "^1.7.2",
+        "emailjs-com": "^3.2.0",
+        "file-saver": "^2.0.5",
+        "framer-motion": "^4.1.17",
+        "jsonwebtoken": "^8.5.1",
+        "jszip": "^3.7.1",
+        "jszip-utils": "^0.1.0",
+        "passport-twitter": "^1.0.4",
+        "react": "^17.0.2",
+        "react-avatar-editor": "^12.0.0",
+        "react-click-outside-hook": "^1.1.1",
+        "react-dom": "^17.0.2",
+        "react-icons": "^4.3.1",
+        "react-lazy-load-image-component": "^1.5.1",
+        "react-router-dom": "^6.2.1",
+        "react-scripts": "4.0.3",
+        "react-spinners": "^0.11.0",
+        "react-vis": "^1.11.7",
+        "styled-components": "^5.3.3",
+        "use-local-storage": "^2.2.6",
+        "web-vitals": "^1.0.1"
+    },
+    "scripts": {
+        "start": "react-scripts start",
+        "build": "react-scripts build",
+        "test": "react-scripts test",
+        "eject": "react-scripts eject"
+    },
+    "eslintConfig": {
+        "extends": [
+            "react-app",
+            "react-app/jest"
+        ]
+    },
+    "browserslist": {
+        "production": [
+            ">0.2%",
+            "not dead",
+            "not op_mini all"
+        ],
+        "development": [
+            "last 1 chrome version",
+            "last 1 firefox version",
+            "last 1 safari version"
+        ]
+    }
+}

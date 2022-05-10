@@ -1,0 +1,3060 @@
+table {
+    border-collapse: separate;
+    border-spacing: 0px;
+}
+
+.pure-table {
+    border-spacing: 0px;
+    empty-cells: show;
+}
+
+*,
+ ::before,
+ ::after {
+    box-sizing: border-box;
+}
+
+.pure-table {
+    width: 100%;
+}
+
+.pure-table,
+table {
+    border-collapse: collapse;
+    border-spacing: 0px;
+}
+
+.pure-table {
+    empty-cells: show;
+    border: 1px solid rgb(203, 203, 203);
+}
+
+.pure-table {
+    border: none;
+}
+
+.pure-table td,
+.pure-table th {
+    font-size: inherit;
+    margin: 0px;
+    overflow: visible;
+}
+
+.pure-table td {
+    padding: 0.4em 0.666667em;
+    vertical-align: top;
+    border: 0px;
+    font-size: smaller;
+}
+
+.pure-table td:first-child {
+    padding-left: 1em;
+}
+
+.pure-table.striped tr:nth-child(2n-1) td {
+    background-color: var(--site-background);
+    border-top: var(--border-style);
+    border-bottom: var(--border-style);
+}
+
+legend,
+td,
+th {
+    padding: 0px;
+}
+
+.pure-table td,
+.pure-table th {
+    border-width: 0px 0px 0px 1px;
+    border-left-style: solid;
+    border-left-color: rgb(203, 203, 203);
+    font-size: inherit;
+    margin: 0px;
+    overflow: visible;
+    padding: 0.5em 1em;
+}
+
+.pure-table td:first-child,
+.pure-table th:first-child {
+    border-left-width: 0px;
+}
+
+.pure-table td {
+    background-color: transparent;
+}
+
+.pure-table td,
+.pure-table th {
+    font-size: smaller;
+    border-left: none;
+}
+
+.pure-table.striped tr:nth-child(2n) td,
+.pure-table.striped tr:nth-child(2n-1) td {
+    border-bottom: var(--border-style);
+}
+
+h2 {
+    margin: 0.83em 0px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: oswald;
+    font-weight: 400;
+    color: var(--color-heading);
+}
+
+.theme-font {
+    font-family: muli;
+}
+
+h2 {
+    font-size: 1.7em;
+    font-weight: 400;
+}
+
+.collections .collectionName {
+    font-size: 1.2em;
+    font-weight: 700;
+    margin: 0px;
+}
+
+a {
+    background-color: transparent;
+}
+
+a:active,
+a:hover {
+    outline: 0px;
+}
+
+a {
+    text-decoration: none;
+    color: var(--color-link);
+}
+
+a:hover {
+    color: var(--color-link--hover);
+}
+
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a,
+h6 a {
+    color: var(--color-link);
+}
+
+.pure-button:focus,
+a:active,
+a:hover {
+    outline: 0px;
+}
+
+p,
+pre {
+    margin: 1em 0px;
+}
+
+p {
+    line-height: 1.5;
+}
+
+.aligncenter {
+    text-align: center;
+}
+
+.metadata {
+    font-size: 1em;
+    display: inline-block;
+}
+
+.collections .metadata {
+    white-space: nowrap;
+    display: block;
+}
+
+.heartOn,
+.heartOff {
+    font-weight: 400;
+    padding: 0px !important;
+}
+
+.heartOn::before {
+    content: "";
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    line-height: 1;
+    font-family: "font awesome 5 free";
+    font-weight: 900;
+}
+
+.collections .metadata .heartOn {
+    margin-right: 0.5em;
+    color: var(--heartSwitch-heartOn);
+}
+
+.heartOff::before {
+    content: "";
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    line-height: 1;
+    font-family: "font awesome 5 free";
+    font-weight: 900;
+}
+
+.heartSwitch {
+    display: inline-block;
+    white-space: nowrap;
+    border-radius: 2px;
+    border: var(--border-style);
+    background: var(--site-background);
+}
+
+.heartSwitch {
+    margin: 0px 0.3em;
+}
+
+.heartSwitch a {
+    color: var(--color-input-text);
+    display: inline-block;
+    margin: 0px;
+    font-size: 1em;
+    padding: 6px 8px !important;
+}
+
+.heartSwitch a:hover {
+    color: var(--color-input-text--hover);
+}
+
+.heartSwitch a {
+    padding: 4px;
+    transition: all 0.2s linear 0s;
+}
+
+a.tooltip,
+.cta .rated {
+    cursor: pointer;
+}
+
+.heartSwitch a+a {
+    border-left: var(--border-style);
+    margin-left: -3px;
+}
+
+.heartSwitch .heartOff::after {
+    color: rgba(25, 55, 103, 0.04);
+    left: 40%;
+}
+
+.cardHand {
+    margin-bottom: 2em;
+    font-size: 0.9em;
+    font-family: muli;
+    color: rgb(171, 171, 171);
+    clear: both;
+}
+
+.pure-table td:last-child {
+    padding-right: 1em;
+}
+
+.collections td.cardHand {
+    overflow: hidden;
+}
+
+dl,
+ol,
+ul {
+    margin: 1em 0px;
+}
+
+dd,
+ol,
+ul {
+    padding: 0px;
+}
+
+ul {
+    padding-left: 0px;
+}
+
+.cardHand ul {
+    list-style: none;
+    white-space: nowrap;
+    display: inline-flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+    flex-direction: row-reverse;
+    height: 106px;
+    margin: 0px 0px 0.5em;
+    max-width: 100%;
+    padding-right: 20px;
+}
+
+.pure-table ul {
+    list-style: none;
+}
+
+.cardHand .card {
+    width: 70px;
+    height: 105px;
+    display: inline-block;
+    overflow: hidden;
+    position: relative;
+    transition: all 0.2s ease 0s;
+    cursor: pointer;
+    margin-right: -20px;
+    box-shadow: rgba(0, 0, 0, 0.5) 2px 2px 5px;
+    border-right: 1px solid grey;
+}
+
+.cardHand .card::before {
+    content: "";
+    position: absolute;
+    inset: 0px;
+    background: rgb(102, 102, 102);
+    opacity: 0.5;
+}
+
+.cardHand .card:first-child {
+    border: 0px;
+}
+
+.cardHand .card:hover {
+    z-index: 6;
+    transform: scale(1.05);
+}
+
+.cardHand .card:hover::before {
+    opacity: 0;
+}
+
+.card {
+    display: inline-block;
+    vertical-align: top;
+    max-width: 200px;
+    margin-bottom: 1.6em;
+    text-align: center;
+}
+
+img {
+    border: 0px;
+}
+
+.cardHand .card img {
+    max-height: 100%;
+}
+
+.cardHand .card:nth-of-type(2)::before {
+    opacity: 0.4;
+}
+
+.cardHand .card:nth-of-type(3)::before {
+    opacity: 0.3;
+}
+
+.cardHand .card:nth-of-type(4)::before {
+    opacity: 0.2;
+}
+
+.cardHand .card:last-child::before {
+    background: 0px center;
+}
+
+.pure-table.striped tr:nth-child(2n) td {
+    background-color: var(--row-background);
+    border-top: var(--border-style);
+    border-bottom: var(--border-style);
+}
+
+@media screen and (max-width: 767px),
+(max-device-width: 767px) and (orientation: portrait),
+(max-device-width: 499px) and (orientation: landscape) {
+    #siteHeader,
+    #siteFooter,
+    #siteNav,
+    .alpha,
+    .pure-table,
+    .profLoa .lifeOnAnime,
+    .pagination,
+    .mainEntry img,
+    #siteFooter>* {
+        width: 100%;
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width: 767px),
+(max-device-width: 767px) and (orientation: portrait),
+(max-device-width: 499px) and (orientation: landscape) {
+    .pure-table td {
+        padding: 0.4em;
+    }
+}
+
+@media screen and (max-width: 767px),
+(max-device-width: 767px) and (orientation: portrait),
+(max-device-width: 499px) and (orientation: landscape) {
+    .pure-table td:first-child {
+        padding-left: 0.4em;
+    }
+}
+
+@media (min-width: 600px) {
+    .volsChRating {
+        width: 328px;
+    }
+}
+
+@media (max-width: 767px) {
+    h2 {
+        font-size: 1.6em;
+    }
+}
+
+@media (max-width: 500px) {
+    h2 {
+        font-size: 1.4em;
+    }
+}
+
+@media (max-width: 500px) {
+    p {
+        line-height: 1.4;
+    }
+}
+
+@media screen and (max-width: 767px),
+(max-device-width: 767px) and (orientation: portrait),
+(max-device-width: 499px) and (orientation: landscape) {
+    .pure-table td {
+        padding: 0.4em;
+    }
+}
+
+@media (max-width: 500px) {
+    p {
+        line-height: 1.4;
+    }
+}
+
+@media (min-width: 768px) {
+    .collections .metadata .heartOn {
+        margin-right: 1em;
+    }
+}
+
+@media screen and (max-width: 767px),
+(max-device-width: 767px) and (orientation: portrait),
+(max-device-width: 499px) and (orientation: landscape) {
+    .pure-table td {
+        padding: 0.4em;
+    }
+}
+
+@media screen and (max-width: 767px),
+(max-device-width: 767px) and (orientation: portrait),
+(max-device-width: 499px) and (orientation: landscape) {
+    .pure-table td:last-child {
+        padding-right: 0.4em;
+    }
+}
+
+@media screen and (max-width: 767px),
+(max-device-width: 767px) and (orientation: portrait),
+(max-device-width: 499px) and (orientation: landscape) {
+    .pure-table td {
+        padding: 0.4em;
+    }
+}
+
+@media screen and (max-width: 767px),
+(max-device-width: 767px) and (orientation: portrait),
+(max-device-width: 499px) and (orientation: landscape) {
+    .pure-table td:first-child {
+        padding-left: 0.4em;
+    }
+}
+
+@media (min-width: 600px) {
+    .volsChRating {
+        width: 328px;
+    }
+}
+
+@media (max-width: 767px) {
+    h2 {
+        font-size: 1.6em;
+    }
+}
+
+@media (max-width: 500px) {
+    h2 {
+        font-size: 1.4em;
+    }
+}
+
+@media (max-width: 500px) {
+    p {
+        line-height: 1.4;
+    }
+}
+
+@media screen and (max-width: 767px),
+(max-device-width: 767px) and (orientation: portrait),
+(max-device-width: 499px) and (orientation: landscape) {
+    .pure-table td {
+        padding: 0.4em;
+    }
+}
+
+@media (max-width: 500px) {
+    p {
+        line-height: 1.4;
+    }
+}
+
+@media (min-width: 768px) {
+    .collections .metadata .heartOn {
+        margin-right: 1em;
+    }
+}
+
+@media screen and (max-width: 767px),
+(max-device-width: 767px) and (orientation: portrait),
+(max-device-width: 499px) and (orientation: landscape) {
+    .pure-table td {
+        padding: 0.4em;
+    }
+}
+
+@media screen and (max-width: 767px),
+(max-device-width: 767px) and (orientation: portrait),
+(max-device-width: 499px) and (orientation: landscape) {
+    .pure-table td:last-child {
+        padding-right: 0.4em;
+    }
+}
+
+@media screen and (max-width: 767px),
+(max-device-width: 767px) and (orientation: portrait),
+(max-device-width: 499px) and (orientation: landscape) {
+    .pure-table td {
+        padding: 0.4em;
+    }
+}
+
+@media screen and (max-width: 767px),
+(max-device-width: 767px) and (orientation: portrait),
+(max-device-width: 499px) and (orientation: landscape) {
+    .pure-table td:first-child {
+        padding-left: 0.4em;
+    }
+}
+
+@media (min-width: 600px) {
+    .volsChRating {
+        width: 328px;
+    }
+}
+
+@media (max-width: 767px) {
+    h2 {
+        font-size: 1.6em;
+    }
+}
+
+@media (max-width: 500px) {
+    h2 {
+        font-size: 1.4em;
+    }
+}
+
+@media (max-width: 500px) {
+    p {
+        line-height: 1.4;
+    }
+}
+
+@media screen and (max-width: 767px),
+(max-device-width: 767px) and (orientation: portrait),
+(max-device-width: 499px) and (orientation: landscape) {
+    .pure-table td {
+        padding: 0.4em;
+    }
+}
+
+@media (max-width: 500px) {
+    p {
+        line-height: 1.4;
+    }
+}
+
+@media (min-width: 768px) {
+    .collections .metadata .heartOn {
+        margin-right: 1em;
+    }
+}
+
+@media screen and (max-width: 767px),
+(max-device-width: 767px) and (orientation: portrait),
+(max-device-width: 499px) and (orientation: landscape) {
+    .pure-table td {
+        padding: 0.4em;
+    }
+}
+
+@media screen and (max-width: 767px),
+(max-device-width: 767px) and (orientation: portrait),
+(max-device-width: 499px) and (orientation: landscape) {
+    .pure-table td:last-child {
+        padding-right: 0.4em;
+    }
+}
+
+@media screen and (max-width: 767px),
+(max-device-width: 767px) and (orientation: portrait),
+(max-device-width: 499px) and (orientation: landscape) {
+    .pure-table td {
+        padding: 0.4em;
+    }
+}
+
+@media screen and (max-width: 767px),
+(max-device-width: 767px) and (orientation: portrait),
+(max-device-width: 499px) and (orientation: landscape) {
+    .pure-table td:first-child {
+        padding-left: 0.4em;
+    }
+}
+
+@media (min-width: 600px) {
+    .volsChRating {
+        width: 328px;
+    }
+}
+
+@media (max-width: 767px) {
+    h2 {
+        font-size: 1.6em;
+    }
+}
+
+@media (max-width: 500px) {
+    h2 {
+        font-size: 1.4em;
+    }
+}
+
+@media (max-width: 500px) {
+    p {
+        line-height: 1.4;
+    }
+}
+
+@media screen and (max-width: 767px),
+(max-device-width: 767px) and (orientation: portrait),
+(max-device-width: 499px) and (orientation: landscape) {
+    .pure-table td {
+        padding: 0.4em;
+    }
+}
+
+@media (max-width: 500px) {
+    p {
+        line-height: 1.4;
+    }
+}
+
+@media (min-width: 768px) {
+    .collections .metadata .heartOn {
+        margin-right: 1em;
+    }
+}
+
+@media screen and (max-width: 767px),
+(max-device-width: 767px) and (orientation: portrait),
+(max-device-width: 499px) and (orientation: landscape) {
+    .pure-table td {
+        padding: 0.4em;
+    }
+}
+
+@media screen and (max-width: 767px),
+(max-device-width: 767px) and (orientation: portrait),
+(max-device-width: 499px) and (orientation: landscape) {
+    .pure-table td:last-child {
+        padding-right: 0.4em;
+    }
+}
+
+@media screen and (max-width: 767px),
+(max-device-width: 767px) and (orientation: portrait),
+(max-device-width: 499px) and (orientation: landscape) {
+    .pure-table td {
+        padding: 0.4em;
+    }
+}
+
+@media screen and (max-width: 767px),
+(max-device-width: 767px) and (orientation: portrait),
+(max-device-width: 499px) and (orientation: landscape) {
+    .pure-table td:first-child {
+        padding-left: 0.4em;
+    }
+}
+
+@media (min-width: 600px) {
+    .volsChRating {
+        width: 328px;
+    }
+}
+
+@media (max-width: 767px) {
+    h2 {
+        font-size: 1.6em;
+    }
+}
+
+@media (max-width: 500px) {
+    h2 {
+        font-size: 1.4em;
+    }
+}
+
+@media (max-width: 500px) {
+    p {
+        line-height: 1.4;
+    }
+}
+
+@media screen and (max-width: 767px),
+(max-device-width: 767px) and (orientation: portrait),
+(max-device-width: 499px) and (orientation: landscape) {
+    .pure-table td {
+        padding: 0.4em;
+    }
+}
+
+@media (max-width: 500px) {
+    p {
+        line-height: 1.4;
+    }
+}
+
+@media (min-width: 768px) {
+    .collections .metadata .heartOn {
+        margin-right: 1em;
+    }
+}
+
+@media screen and (max-width: 767px),
+(max-device-width: 767px) and (orientation: portrait),
+(max-device-width: 499px) and (orientation: landscape) {
+    .pure-table td {
+        padding: 0.4em;
+    }
+}
+
+@media screen and (max-width: 767px),
+(max-device-width: 767px) and (orientation: portrait),
+(max-device-width: 499px) and (orientation: landscape) {
+    .pure-table td:last-child {
+        padding-right: 0.4em;
+    }
+}
+
+@media screen and (max-width: 767px),
+(max-device-width: 767px) and (orientation: portrait),
+(max-device-width: 499px) and (orientation: landscape) {
+    .pure-table td {
+        padding: 0.4em;
+    }
+}
+
+@media screen and (max-width: 767px),
+(max-device-width: 767px) and (orientation: portrait),
+(max-device-width: 499px) and (orientation: landscape) {
+    .pure-table td:first-child {
+        padding-left: 0.4em;
+    }
+}
+
+@media (min-width: 600px) {
+    .volsChRating {
+        width: 328px;
+    }
+}
+
+@media (max-width: 767px) {
+    h2 {
+        font-size: 1.6em;
+    }
+}
+
+@media (max-width: 500px) {
+    h2 {
+        font-size: 1.4em;
+    }
+}
+
+@media (max-width: 500px) {
+    p {
+        line-height: 1.4;
+    }
+}
+
+@media screen and (max-width: 767px),
+(max-device-width: 767px) and (orientation: portrait),
+(max-device-width: 499px) and (orientation: landscape) {
+    .pure-table td {
+        padding: 0.4em;
+    }
+}
+
+@media (max-width: 500px) {
+    p {
+        line-height: 1.4;
+    }
+}
+
+@media (min-width: 768px) {
+    .collections .metadata .heartOn {
+        margin-right: 1em;
+    }
+}
+
+@media screen and (max-width: 767px),
+(max-device-width: 767px) and (orientation: portrait),
+(max-device-width: 499px) and (orientation: landscape) {
+    .pure-table td {
+        padding: 0.4em;
+    }
+}
+
+@media screen and (max-width: 767px),
+(max-device-width: 767px) and (orientation: portrait),
+(max-device-width: 499px) and (orientation: landscape) {
+    .pure-table td:last-child {
+        padding-right: 0.4em;
+    }
+}
+
+@media screen and (max-width: 767px),
+(max-device-width: 767px) and (orientation: portrait),
+(max-device-width: 499px) and (orientation: landscape) {
+    .pure-table td {
+        padding: 0.4em;
+    }
+}
+
+@media screen and (max-width: 767px),
+(max-device-width: 767px) and (orientation: portrait),
+(max-device-width: 499px) and (orientation: landscape) {
+    .pure-table td:first-child {
+        padding-left: 0.4em;
+    }
+}
+
+@media (min-width: 600px) {
+    .volsChRating {
+        width: 328px;
+    }
+}
+
+@media (max-width: 767px) {
+    h2 {
+        font-size: 1.6em;
+    }
+}
+
+@media (max-width: 500px) {
+    h2 {
+        font-size: 1.4em;
+    }
+}
+
+@media (max-width: 500px) {
+    p {
+        line-height: 1.4;
+    }
+}
+
+@media screen and (max-width: 767px),
+(max-device-width: 767px) and (orientation: portrait),
+(max-device-width: 499px) and (orientation: landscape) {
+    .pure-table td {
+        padding: 0.4em;
+    }
+}
+
+@media (max-width: 500px) {
+    p {
+        line-height: 1.4;
+    }
+}
+
+@media (min-width: 768px) {
+    .collections .metadata .heartOn {
+        margin-right: 1em;
+    }
+}
+
+@media screen and (max-width: 767px),
+(max-device-width: 767px) and (orientation: portrait),
+(max-device-width: 499px) and (orientation: landscape) {
+    .pure-table td {
+        padding: 0.4em;
+    }
+}
+
+@media screen and (max-width: 767px),
+(max-device-width: 767px) and (orientation: portrait),
+(max-device-width: 499px) and (orientation: landscape) {
+    .pure-table td:last-child {
+        padding-right: 0.4em;
+    }
+}
+
+@media screen and (max-width: 767px),
+(max-device-width: 767px) and (orientation: portrait),
+(max-device-width: 499px) and (orientation: landscape) {
+    .pure-table td {
+        padding: 0.4em;
+    }
+}
+
+@media screen and (max-width: 767px),
+(max-device-width: 767px) and (orientation: portrait),
+(max-device-width: 499px) and (orientation: landscape) {
+    .pure-table td:first-child {
+        padding-left: 0.4em;
+    }
+}
+
+@media (min-width: 600px) {
+    .volsChRating {
+        width: 328px;
+    }
+}
+
+@media (max-width: 767px) {
+    h2 {
+        font-size: 1.6em;
+    }
+}
+
+@media (max-width: 500px) {
+    h2 {
+        font-size: 1.4em;
+    }
+}
+
+@media (max-width: 500px) {
+    p {
+        line-height: 1.4;
+    }
+}
+
+@media screen and (max-width: 767px),
+(max-device-width: 767px) and (orientation: portrait),
+(max-device-width: 499px) and (orientation: landscape) {
+    .pure-table td {
+        padding: 0.4em;
+    }
+}
+
+@media (max-width: 500px) {
+    p {
+        line-height: 1.4;
+    }
+}
+
+@media (min-width: 768px) {
+    .collections .metadata .heartOn {
+        margin-right: 1em;
+    }
+}
+
+@media screen and (max-width: 767px),
+(max-device-width: 767px) and (orientation: portrait),
+(max-device-width: 499px) and (orientation: landscape) {
+    .pure-table td {
+        padding: 0.4em;
+    }
+}
+
+@media screen and (max-width: 767px),
+(max-device-width: 767px) and (orientation: portrait),
+(max-device-width: 499px) and (orientation: landscape) {
+    .pure-table td:last-child {
+        padding-right: 0.4em;
+    }
+}
+
+@media screen and (max-width: 767px),
+(max-device-width: 767px) and (orientation: portrait),
+(max-device-width: 499px) and (orientation: landscape) {
+    .pure-table td {
+        padding: 0.4em;
+    }
+}
+
+@media screen and (max-width: 767px),
+(max-device-width: 767px) and (orientation: portrait),
+(max-device-width: 499px) and (orientation: landscape) {
+    .pure-table td:first-child {
+        padding-left: 0.4em;
+    }
+}
+
+@media (min-width: 600px) {
+    .volsChRating {
+        width: 328px;
+    }
+}
+
+@media (max-width: 767px) {
+    h2 {
+        font-size: 1.6em;
+    }
+}
+
+@media (max-width: 500px) {
+    h2 {
+        font-size: 1.4em;
+    }
+}
+
+@media (max-width: 500px) {
+    p {
+        line-height: 1.4;
+    }
+}
+
+@media screen and (max-width: 767px),
+(max-device-width: 767px) and (orientation: portrait),
+(max-device-width: 499px) and (orientation: landscape) {
+    .pure-table td {
+        padding: 0.4em;
+    }
+}
+
+@media (max-width: 500px) {
+    p {
+        line-height: 1.4;
+    }
+}
+
+@media (min-width: 768px) {
+    .collections .metadata .heartOn {
+        margin-right: 1em;
+    }
+}
+
+@media screen and (max-width: 767px),
+(max-device-width: 767px) and (orientation: portrait),
+(max-device-width: 499px) and (orientation: landscape) {
+    .pure-table td {
+        padding: 0.4em;
+    }
+}
+
+@media screen and (max-width: 767px),
+(max-device-width: 767px) and (orientation: portrait),
+(max-device-width: 499px) and (orientation: landscape) {
+    .pure-table td:last-child {
+        padding-right: 0.4em;
+    }
+}
+
+@media screen and (max-width: 767px),
+(max-device-width: 767px) and (orientation: portrait),
+(max-device-width: 499px) and (orientation: landscape) {
+    .pure-table td {
+        padding: 0.4em;
+    }
+}
+
+@media screen and (max-width: 767px),
+(max-device-width: 767px) and (orientation: portrait),
+(max-device-width: 499px) and (orientation: landscape) {
+    .pure-table td:first-child {
+        padding-left: 0.4em;
+    }
+}
+
+@media (min-width: 600px) {
+    .volsChRating {
+        width: 328px;
+    }
+}
+
+@media (max-width: 767px) {
+    h2 {
+        font-size: 1.6em;
+    }
+}
+
+@media (max-width: 500px) {
+    h2 {
+        font-size: 1.4em;
+    }
+}
+
+@media (max-width: 500px) {
+    p {
+        line-height: 1.4;
+    }
+}
+
+@media screen and (max-width: 767px),
+(max-device-width: 767px) and (orientation: portrait),
+(max-device-width: 499px) and (orientation: landscape) {
+    .pure-table td {
+        padding: 0.4em;
+    }
+}
+
+@media (max-width: 500px) {
+    p {
+        line-height: 1.4;
+    }
+}
+
+@media (min-width: 768px) {
+    .collections .metadata .heartOn {
+        margin-right: 1em;
+    }
+}
+
+@media screen and (max-width: 767px),
+(max-device-width: 767px) and (orientation: portrait),
+(max-device-width: 499px) and (orientation: landscape) {
+    .pure-table td {
+        padding: 0.4em;
+    }
+}
+
+@media screen and (max-width: 767px),
+(max-device-width: 767px) and (orientation: portrait),
+(max-device-width: 499px) and (orientation: landscape) {
+    .pure-table td:last-child {
+        padding-right: 0.4em;
+    }
+}
+
+@media screen and (max-width: 767px),
+(max-device-width: 767px) and (orientation: portrait),
+(max-device-width: 499px) and (orientation: landscape) {
+    .pure-table td {
+        padding: 0.4em;
+    }
+}
+
+@media screen and (max-width: 767px),
+(max-device-width: 767px) and (orientation: portrait),
+(max-device-width: 499px) and (orientation: landscape) {
+    .pure-table td:first-child {
+        padding-left: 0.4em;
+    }
+}
+
+@media (min-width: 600px) {
+    .volsChRating {
+        width: 328px;
+    }
+}
+
+@media (max-width: 767px) {
+    h2 {
+        font-size: 1.6em;
+    }
+}
+
+@media (max-width: 500px) {
+    h2 {
+        font-size: 1.4em;
+    }
+}
+
+@media (max-width: 500px) {
+    p {
+        line-height: 1.4;
+    }
+}
+
+@media screen and (max-width: 767px),
+(max-device-width: 767px) and (orientation: portrait),
+(max-device-width: 499px) and (orientation: landscape) {
+    .pure-table td {
+        padding: 0.4em;
+    }
+}
+
+@media (max-width: 500px) {
+    p {
+        line-height: 1.4;
+    }
+}
+
+@media (min-width: 768px) {
+    .collections .metadata .heartOn {
+        margin-right: 1em;
+    }
+}
+
+@media screen and (max-width: 767px),
+(max-device-width: 767px) and (orientation: portrait),
+(max-device-width: 499px) and (orientation: landscape) {
+    .pure-table td {
+        padding: 0.4em;
+    }
+}
+
+@media screen and (max-width: 767px),
+(max-device-width: 767px) and (orientation: portrait),
+(max-device-width: 499px) and (orientation: landscape) {
+    .pure-table td:last-child {
+        padding-right: 0.4em;
+    }
+}
+
+@media screen and (max-width: 767px),
+(max-device-width: 767px) and (orientation: portrait),
+(max-device-width: 499px) and (orientation: landscape) {
+    .pure-table td {
+        padding: 0.4em;
+    }
+}
+
+@media screen and (max-width: 767px),
+(max-device-width: 767px) and (orientation: portrait),
+(max-device-width: 499px) and (orientation: landscape) {
+    .pure-table td:first-child {
+        padding-left: 0.4em;
+    }
+}
+
+@media (min-width: 600px) {
+    .volsChRating {
+        width: 328px;
+    }
+}
+
+@media (max-width: 767px) {
+    h2 {
+        font-size: 1.6em;
+    }
+}
+
+@media (max-width: 500px) {
+    h2 {
+        font-size: 1.4em;
+    }
+}
+
+@media (max-width: 500px) {
+    p {
+        line-height: 1.4;
+    }
+}
+
+@media screen and (max-width: 767px),
+(max-device-width: 767px) and (orientation: portrait),
+(max-device-width: 499px) and (orientation: landscape) {
+    .pure-table td {
+        padding: 0.4em;
+    }
+}
+
+@media (max-width: 500px) {
+    p {
+        line-height: 1.4;
+    }
+}
+
+@media (min-width: 768px) {
+    .collections .metadata .heartOn {
+        margin-right: 1em;
+    }
+}
+
+@media screen and (max-width: 767px),
+(max-device-width: 767px) and (orientation: portrait),
+(max-device-width: 499px) and (orientation: landscape) {
+    .pure-table td {
+        padding: 0.4em;
+    }
+}
+
+@media screen and (max-width: 767px),
+(max-device-width: 767px) and (orientation: portrait),
+(max-device-width: 499px) and (orientation: landscape) {
+    .pure-table td:last-child {
+        padding-right: 0.4em;
+    }
+}
+
+@media screen and (max-width: 767px),
+(max-device-width: 767px) and (orientation: portrait),
+(max-device-width: 499px) and (orientation: landscape) {
+    .pure-table td {
+        padding: 0.4em;
+    }
+}
+
+@media screen and (max-width: 767px),
+(max-device-width: 767px) and (orientation: portrait),
+(max-device-width: 499px) and (orientation: landscape) {
+    .pure-table td:first-child {
+        padding-left: 0.4em;
+    }
+}
+
+@media (min-width: 600px) {
+    .volsChRating {
+        width: 328px;
+    }
+}
+
+@media (max-width: 767px) {
+    h2 {
+        font-size: 1.6em;
+    }
+}
+
+@media (max-width: 500px) {
+    h2 {
+        font-size: 1.4em;
+    }
+}
+
+@media (max-width: 500px) {
+    p {
+        line-height: 1.4;
+    }
+}
+
+@media screen and (max-width: 767px),
+(max-device-width: 767px) and (orientation: portrait),
+(max-device-width: 499px) and (orientation: landscape) {
+    .pure-table td {
+        padding: 0.4em;
+    }
+}
+
+@media (max-width: 500px) {
+    p {
+        line-height: 1.4;
+    }
+}
+
+@media (min-width: 768px) {
+    .collections .metadata .heartOn {
+        margin-right: 1em;
+    }
+}
+
+@media screen and (max-width: 767px),
+(max-device-width: 767px) and (orientation: portrait),
+(max-device-width: 499px) and (orientation: landscape) {
+    .pure-table td {
+        padding: 0.4em;
+    }
+}
+
+@media screen and (max-width: 767px),
+(max-device-width: 767px) and (orientation: portrait),
+(max-device-width: 499px) and (orientation: landscape) {
+    .pure-table td:last-child {
+        padding-right: 0.4em;
+    }
+}
+
+@media screen and (max-width: 767px),
+(max-device-width: 767px) and (orientation: portrait),
+(max-device-width: 499px) and (orientation: landscape) {
+    .pure-table td {
+        padding: 0.4em;
+    }
+}
+
+@media screen and (max-width: 767px),
+(max-device-width: 767px) and (orientation: portrait),
+(max-device-width: 499px) and (orientation: landscape) {
+    .pure-table td:first-child {
+        padding-left: 0.4em;
+    }
+}
+
+@media (min-width: 600px) {
+    .volsChRating {
+        width: 328px;
+    }
+}
+
+@media (max-width: 767px) {
+    h2 {
+        font-size: 1.6em;
+    }
+}
+
+@media (max-width: 500px) {
+    h2 {
+        font-size: 1.4em;
+    }
+}
+
+@media (max-width: 500px) {
+    p {
+        line-height: 1.4;
+    }
+}
+
+@media screen and (max-width: 767px),
+(max-device-width: 767px) and (orientation: portrait),
+(max-device-width: 499px) and (orientation: landscape) {
+    .pure-table td {
+        padding: 0.4em;
+    }
+}
+
+@media (max-width: 500px) {
+    p {
+        line-height: 1.4;
+    }
+}
+
+@media (min-width: 768px) {
+    .collections .metadata .heartOn {
+        margin-right: 1em;
+    }
+}
+
+@media screen and (max-width: 767px),
+(max-device-width: 767px) and (orientation: portrait),
+(max-device-width: 499px) and (orientation: landscape) {
+    .pure-table td {
+        padding: 0.4em;
+    }
+}
+
+@media screen and (max-width: 767px),
+(max-device-width: 767px) and (orientation: portrait),
+(max-device-width: 499px) and (orientation: landscape) {
+    .pure-table td:last-child {
+        padding-right: 0.4em;
+    }
+}
+
+@media screen and (max-width: 767px),
+(max-device-width: 767px) and (orientation: portrait),
+(max-device-width: 499px) and (orientation: landscape) {
+    .pure-table td {
+        padding: 0.4em;
+    }
+}
+
+@media screen and (max-width: 767px),
+(max-device-width: 767px) and (orientation: portrait),
+(max-device-width: 499px) and (orientation: landscape) {
+    .pure-table td:first-child {
+        padding-left: 0.4em;
+    }
+}
+
+@media (min-width: 600px) {
+    .volsChRating {
+        width: 328px;
+    }
+}
+
+@media (max-width: 767px) {
+    h2 {
+        font-size: 1.6em;
+    }
+}
+
+@media (max-width: 500px) {
+    h2 {
+        font-size: 1.4em;
+    }
+}
+
+@media (max-width: 500px) {
+    p {
+        line-height: 1.4;
+    }
+}
+
+@media screen and (max-width: 767px),
+(max-device-width: 767px) and (orientation: portrait),
+(max-device-width: 499px) and (orientation: landscape) {
+    .pure-table td {
+        padding: 0.4em;
+    }
+}
+
+@media (max-width: 500px) {
+    p {
+        line-height: 1.4;
+    }
+}
+
+@media (min-width: 768px) {
+    .collections .metadata .heartOn {
+        margin-right: 1em;
+    }
+}
+
+@media screen and (max-width: 767px),
+(max-device-width: 767px) and (orientation: portrait),
+(max-device-width: 499px) and (orientation: landscape) {
+    .pure-table td {
+        padding: 0.4em;
+    }
+}
+
+@media screen and (max-width: 767px),
+(max-device-width: 767px) and (orientation: portrait),
+(max-device-width: 499px) and (orientation: landscape) {
+    .pure-table td:last-child {
+        padding-right: 0.4em;
+    }
+}
+
+@media screen and (max-width: 767px),
+(max-device-width: 767px) and (orientation: portrait),
+(max-device-width: 499px) and (orientation: landscape) {
+    .pure-table td {
+        padding: 0.4em;
+    }
+}
+
+@media screen and (max-width: 767px),
+(max-device-width: 767px) and (orientation: portrait),
+(max-device-width: 499px) and (orientation: landscape) {
+    .pure-table td:first-child {
+        padding-left: 0.4em;
+    }
+}
+
+@media (min-width: 600px) {
+    .volsChRating {
+        width: 328px;
+    }
+}
+
+@media (max-width: 767px) {
+    h2 {
+        font-size: 1.6em;
+    }
+}
+
+@media (max-width: 500px) {
+    h2 {
+        font-size: 1.4em;
+    }
+}
+
+@media (max-width: 500px) {
+    p {
+        line-height: 1.4;
+    }
+}
+
+@media screen and (max-width: 767px),
+(max-device-width: 767px) and (orientation: portrait),
+(max-device-width: 499px) and (orientation: landscape) {
+    .pure-table td {
+        padding: 0.4em;
+    }
+}
+
+@media (max-width: 500px) {
+    p {
+        line-height: 1.4;
+    }
+}
+
+@media (min-width: 768px) {
+    .collections .metadata .heartOn {
+        margin-right: 1em;
+    }
+}
+
+@media screen and (max-width: 767px),
+(max-device-width: 767px) and (orientation: portrait),
+(max-device-width: 499px) and (orientation: landscape) {
+    .pure-table td {
+        padding: 0.4em;
+    }
+}
+
+@media screen and (max-width: 767px),
+(max-device-width: 767px) and (orientation: portrait),
+(max-device-width: 499px) and (orientation: landscape) {
+    .pure-table td:last-child {
+        padding-right: 0.4em;
+    }
+}
+
+@media screen and (max-width: 767px),
+(max-device-width: 767px) and (orientation: portrait),
+(max-device-width: 499px) and (orientation: landscape) {
+    .pure-table td {
+        padding: 0.4em;
+    }
+}
+
+@media screen and (max-width: 767px),
+(max-device-width: 767px) and (orientation: portrait),
+(max-device-width: 499px) and (orientation: landscape) {
+    .pure-table td:first-child {
+        padding-left: 0.4em;
+    }
+}
+
+@media (min-width: 600px) {
+    .volsChRating {
+        width: 328px;
+    }
+}
+
+@media (max-width: 767px) {
+    h2 {
+        font-size: 1.6em;
+    }
+}
+
+@media (max-width: 500px) {
+    h2 {
+        font-size: 1.4em;
+    }
+}
+
+@media (max-width: 500px) {
+    p {
+        line-height: 1.4;
+    }
+}
+
+@media screen and (max-width: 767px),
+(max-device-width: 767px) and (orientation: portrait),
+(max-device-width: 499px) and (orientation: landscape) {
+    .pure-table td {
+        padding: 0.4em;
+    }
+}
+
+@media (max-width: 500px) {
+    p {
+        line-height: 1.4;
+    }
+}
+
+@media (min-width: 768px) {
+    .collections .metadata .heartOn {
+        margin-right: 1em;
+    }
+}
+
+@media screen and (max-width: 767px),
+(max-device-width: 767px) and (orientation: portrait),
+(max-device-width: 499px) and (orientation: landscape) {
+    .pure-table td {
+        padding: 0.4em;
+    }
+}
+
+@media screen and (max-width: 767px),
+(max-device-width: 767px) and (orientation: portrait),
+(max-device-width: 499px) and (orientation: landscape) {
+    .pure-table td:last-child {
+        padding-right: 0.4em;
+    }
+}
+
+@media screen and (max-width: 767px),
+(max-device-width: 767px) and (orientation: portrait),
+(max-device-width: 499px) and (orientation: landscape) {
+    .pure-table td {
+        padding: 0.4em;
+    }
+}
+
+@media screen and (max-width: 767px),
+(max-device-width: 767px) and (orientation: portrait),
+(max-device-width: 499px) and (orientation: landscape) {
+    .pure-table td:first-child {
+        padding-left: 0.4em;
+    }
+}
+
+@media (min-width: 600px) {
+    .volsChRating {
+        width: 328px;
+    }
+}
+
+@media (max-width: 767px) {
+    h2 {
+        font-size: 1.6em;
+    }
+}
+
+@media (max-width: 500px) {
+    h2 {
+        font-size: 1.4em;
+    }
+}
+
+@media (max-width: 500px) {
+    p {
+        line-height: 1.4;
+    }
+}
+
+@media screen and (max-width: 767px),
+(max-device-width: 767px) and (orientation: portrait),
+(max-device-width: 499px) and (orientation: landscape) {
+    .pure-table td {
+        padding: 0.4em;
+    }
+}
+
+@media (max-width: 500px) {
+    p {
+        line-height: 1.4;
+    }
+}
+
+@media (min-width: 768px) {
+    .collections .metadata .heartOn {
+        margin-right: 1em;
+    }
+}
+
+@media screen and (max-width: 767px),
+(max-device-width: 767px) and (orientation: portrait),
+(max-device-width: 499px) and (orientation: landscape) {
+    .pure-table td {
+        padding: 0.4em;
+    }
+}
+
+@media screen and (max-width: 767px),
+(max-device-width: 767px) and (orientation: portrait),
+(max-device-width: 499px) and (orientation: landscape) {
+    .pure-table td:last-child {
+        padding-right: 0.4em;
+    }
+}
+
+@media screen and (max-width: 767px),
+(max-device-width: 767px) and (orientation: portrait),
+(max-device-width: 499px) and (orientation: landscape) {
+    .pure-table td {
+        padding: 0.4em;
+    }
+}
+
+@media screen and (max-width: 767px),
+(max-device-width: 767px) and (orientation: portrait),
+(max-device-width: 499px) and (orientation: landscape) {
+    .pure-table td:first-child {
+        padding-left: 0.4em;
+    }
+}
+
+@media (min-width: 600px) {
+    .volsChRating {
+        width: 328px;
+    }
+}
+
+@media (max-width: 767px) {
+    h2 {
+        font-size: 1.6em;
+    }
+}
+
+@media (max-width: 500px) {
+    h2 {
+        font-size: 1.4em;
+    }
+}
+
+@media (max-width: 500px) {
+    p {
+        line-height: 1.4;
+    }
+}
+
+@media screen and (max-width: 767px),
+(max-device-width: 767px) and (orientation: portrait),
+(max-device-width: 499px) and (orientation: landscape) {
+    .pure-table td {
+        padding: 0.4em;
+    }
+}
+
+@media (max-width: 500px) {
+    p {
+        line-height: 1.4;
+    }
+}
+
+@media (min-width: 768px) {
+    .collections .metadata .heartOn {
+        margin-right: 1em;
+    }
+}
+
+@media screen and (max-width: 767px),
+(max-device-width: 767px) and (orientation: portrait),
+(max-device-width: 499px) and (orientation: landscape) {
+    .pure-table td {
+        padding: 0.4em;
+    }
+}
+
+@media screen and (max-width: 767px),
+(max-device-width: 767px) and (orientation: portrait),
+(max-device-width: 499px) and (orientation: landscape) {
+    .pure-table td:last-child {
+        padding-right: 0.4em;
+    }
+}
+
+@media screen and (max-width: 767px),
+(max-device-width: 767px) and (orientation: portrait),
+(max-device-width: 499px) and (orientation: landscape) {
+    .pure-table td {
+        padding: 0.4em;
+    }
+}
+
+@media screen and (max-width: 767px),
+(max-device-width: 767px) and (orientation: portrait),
+(max-device-width: 499px) and (orientation: landscape) {
+    .pure-table td:first-child {
+        padding-left: 0.4em;
+    }
+}
+
+@media (min-width: 600px) {
+    .volsChRating {
+        width: 328px;
+    }
+}
+
+@media (max-width: 767px) {
+    h2 {
+        font-size: 1.6em;
+    }
+}
+
+@media (max-width: 500px) {
+    h2 {
+        font-size: 1.4em;
+    }
+}
+
+@media (max-width: 500px) {
+    p {
+        line-height: 1.4;
+    }
+}
+
+@media screen and (max-width: 767px),
+(max-device-width: 767px) and (orientation: portrait),
+(max-device-width: 499px) and (orientation: landscape) {
+    .pure-table td {
+        padding: 0.4em;
+    }
+}
+
+@media (max-width: 500px) {
+    p {
+        line-height: 1.4;
+    }
+}
+
+@media (min-width: 768px) {
+    .collections .metadata .heartOn {
+        margin-right: 1em;
+    }
+}
+
+@media screen and (max-width: 767px),
+(max-device-width: 767px) and (orientation: portrait),
+(max-device-width: 499px) and (orientation: landscape) {
+    .pure-table td {
+        padding: 0.4em;
+    }
+}
+
+@media screen and (max-width: 767px),
+(max-device-width: 767px) and (orientation: portrait),
+(max-device-width: 499px) and (orientation: landscape) {
+    .pure-table td:last-child {
+        padding-right: 0.4em;
+    }
+}
+
+@media screen and (max-width: 767px),
+(max-device-width: 767px) and (orientation: portrait),
+(max-device-width: 499px) and (orientation: landscape) {
+    .pure-table td {
+        padding: 0.4em;
+    }
+}
+
+@media screen and (max-width: 767px),
+(max-device-width: 767px) and (orientation: portrait),
+(max-device-width: 499px) and (orientation: landscape) {
+    .pure-table td:first-child {
+        padding-left: 0.4em;
+    }
+}
+
+@media (min-width: 600px) {
+    .volsChRating {
+        width: 328px;
+    }
+}
+
+@media (max-width: 767px) {
+    h2 {
+        font-size: 1.6em;
+    }
+}
+
+@media (max-width: 500px) {
+    h2 {
+        font-size: 1.4em;
+    }
+}
+
+@media (max-width: 500px) {
+    p {
+        line-height: 1.4;
+    }
+}
+
+@media screen and (max-width: 767px),
+(max-device-width: 767px) and (orientation: portrait),
+(max-device-width: 499px) and (orientation: landscape) {
+    .pure-table td {
+        padding: 0.4em;
+    }
+}
+
+@media (max-width: 500px) {
+    p {
+        line-height: 1.4;
+    }
+}
+
+@media (min-width: 768px) {
+    .collections .metadata .heartOn {
+        margin-right: 1em;
+    }
+}
+
+@media screen and (max-width: 767px),
+(max-device-width: 767px) and (orientation: portrait),
+(max-device-width: 499px) and (orientation: landscape) {
+    .pure-table td {
+        padding: 0.4em;
+    }
+}
+
+@media screen and (max-width: 767px),
+(max-device-width: 767px) and (orientation: portrait),
+(max-device-width: 499px) and (orientation: landscape) {
+    .pure-table td:last-child {
+        padding-right: 0.4em;
+    }
+}
+
+@media screen and (max-width: 767px),
+(max-device-width: 767px) and (orientation: portrait),
+(max-device-width: 499px) and (orientation: landscape) {
+    .pure-table td {
+        padding: 0.4em;
+    }
+}
+
+@media screen and (max-width: 767px),
+(max-device-width: 767px) and (orientation: portrait),
+(max-device-width: 499px) and (orientation: landscape) {
+    .pure-table td:first-child {
+        padding-left: 0.4em;
+    }
+}
+
+@media (min-width: 600px) {
+    .volsChRating {
+        width: 328px;
+    }
+}
+
+@media (max-width: 767px) {
+    h2 {
+        font-size: 1.6em;
+    }
+}
+
+@media (max-width: 500px) {
+    h2 {
+        font-size: 1.4em;
+    }
+}
+
+@media (max-width: 500px) {
+    p {
+        line-height: 1.4;
+    }
+}
+
+@media screen and (max-width: 767px),
+(max-device-width: 767px) and (orientation: portrait),
+(max-device-width: 499px) and (orientation: landscape) {
+    .pure-table td {
+        padding: 0.4em;
+    }
+}
+
+@media (max-width: 500px) {
+    p {
+        line-height: 1.4;
+    }
+}
+
+@media (min-width: 768px) {
+    .collections .metadata .heartOn {
+        margin-right: 1em;
+    }
+}
+
+@media screen and (max-width: 767px),
+(max-device-width: 767px) and (orientation: portrait),
+(max-device-width: 499px) and (orientation: landscape) {
+    .pure-table td {
+        padding: 0.4em;
+    }
+}
+
+@media screen and (max-width: 767px),
+(max-device-width: 767px) and (orientation: portrait),
+(max-device-width: 499px) and (orientation: landscape) {
+    .pure-table td:last-child {
+        padding-right: 0.4em;
+    }
+}
+
+@media screen and (max-width: 767px),
+(max-device-width: 767px) and (orientation: portrait),
+(max-device-width: 499px) and (orientation: landscape) {
+    .pure-table td {
+        padding: 0.4em;
+    }
+}
+
+@media screen and (max-width: 767px),
+(max-device-width: 767px) and (orientation: portrait),
+(max-device-width: 499px) and (orientation: landscape) {
+    .pure-table td:first-child {
+        padding-left: 0.4em;
+    }
+}
+
+@media (min-width: 600px) {
+    .volsChRating {
+        width: 328px;
+    }
+}
+
+@media (max-width: 767px) {
+    h2 {
+        font-size: 1.6em;
+    }
+}
+
+@media (max-width: 500px) {
+    h2 {
+        font-size: 1.4em;
+    }
+}
+
+@media (max-width: 500px) {
+    p {
+        line-height: 1.4;
+    }
+}
+
+@media screen and (max-width: 767px),
+(max-device-width: 767px) and (orientation: portrait),
+(max-device-width: 499px) and (orientation: landscape) {
+    .pure-table td {
+        padding: 0.4em;
+    }
+}
+
+@media (max-width: 500px) {
+    p {
+        line-height: 1.4;
+    }
+}
+
+@media (min-width: 768px) {
+    .collections .metadata .heartOn {
+        margin-right: 1em;
+    }
+}
+
+@media screen and (max-width: 767px),
+(max-device-width: 767px) and (orientation: portrait),
+(max-device-width: 499px) and (orientation: landscape) {
+    .pure-table td {
+        padding: 0.4em;
+    }
+}
+
+@media screen and (max-width: 767px),
+(max-device-width: 767px) and (orientation: portrait),
+(max-device-width: 499px) and (orientation: landscape) {
+    .pure-table td:last-child {
+        padding-right: 0.4em;
+    }
+}
+
+@media screen and (max-width: 767px),
+(max-device-width: 767px) and (orientation: portrait),
+(max-device-width: 499px) and (orientation: landscape) {
+    .pure-table td {
+        padding: 0.4em;
+    }
+}
+
+@media screen and (max-width: 767px),
+(max-device-width: 767px) and (orientation: portrait),
+(max-device-width: 499px) and (orientation: landscape) {
+    .pure-table td:first-child {
+        padding-left: 0.4em;
+    }
+}
+
+@media (min-width: 600px) {
+    .volsChRating {
+        width: 328px;
+    }
+}
+
+@media (max-width: 767px) {
+    h2 {
+        font-size: 1.6em;
+    }
+}
+
+@media (max-width: 500px) {
+    h2 {
+        font-size: 1.4em;
+    }
+}
+
+@media (max-width: 500px) {
+    p {
+        line-height: 1.4;
+    }
+}
+
+@media screen and (max-width: 767px),
+(max-device-width: 767px) and (orientation: portrait),
+(max-device-width: 499px) and (orientation: landscape) {
+    .pure-table td {
+        padding: 0.4em;
+    }
+}
+
+@media (max-width: 500px) {
+    p {
+        line-height: 1.4;
+    }
+}
+
+@media (min-width: 768px) {
+    .collections .metadata .heartOn {
+        margin-right: 1em;
+    }
+}
+
+@media screen and (max-width: 767px),
+(max-device-width: 767px) and (orientation: portrait),
+(max-device-width: 499px) and (orientation: landscape) {
+    .pure-table td {
+        padding: 0.4em;
+    }
+}
+
+@media screen and (max-width: 767px),
+(max-device-width: 767px) and (orientation: portrait),
+(max-device-width: 499px) and (orientation: landscape) {
+    .pure-table td:last-child {
+        padding-right: 0.4em;
+    }
+}
+
+@media screen and (max-width: 767px),
+(max-device-width: 767px) and (orientation: portrait),
+(max-device-width: 499px) and (orientation: landscape) {
+    .pure-table td {
+        padding: 0.4em;
+    }
+}
+
+@media screen and (max-width: 767px),
+(max-device-width: 767px) and (orientation: portrait),
+(max-device-width: 499px) and (orientation: landscape) {
+    .pure-table td:first-child {
+        padding-left: 0.4em;
+    }
+}
+
+@media (min-width: 600px) {
+    .volsChRating {
+        width: 328px;
+    }
+}
+
+@media (max-width: 767px) {
+    h2 {
+        font-size: 1.6em;
+    }
+}
+
+@media (max-width: 500px) {
+    h2 {
+        font-size: 1.4em;
+    }
+}
+
+@media (max-width: 500px) {
+    p {
+        line-height: 1.4;
+    }
+}
+
+@media screen and (max-width: 767px),
+(max-device-width: 767px) and (orientation: portrait),
+(max-device-width: 499px) and (orientation: landscape) {
+    .pure-table td {
+        padding: 0.4em;
+    }
+}
+
+@media (max-width: 500px) {
+    p {
+        line-height: 1.4;
+    }
+}
+
+@media (min-width: 768px) {
+    .collections .metadata .heartOn {
+        margin-right: 1em;
+    }
+}
+
+@media screen and (max-width: 767px),
+(max-device-width: 767px) and (orientation: portrait),
+(max-device-width: 499px) and (orientation: landscape) {
+    .pure-table td {
+        padding: 0.4em;
+    }
+}
+
+@media screen and (max-width: 767px),
+(max-device-width: 767px) and (orientation: portrait),
+(max-device-width: 499px) and (orientation: landscape) {
+    .pure-table td:last-child {
+        padding-right: 0.4em;
+    }
+}
+
+@media screen and (max-width: 767px),
+(max-device-width: 767px) and (orientation: portrait),
+(max-device-width: 499px) and (orientation: landscape) {
+    .pure-table td {
+        padding: 0.4em;
+    }
+}
+
+@media screen and (max-width: 767px),
+(max-device-width: 767px) and (orientation: portrait),
+(max-device-width: 499px) and (orientation: landscape) {
+    .pure-table td:first-child {
+        padding-left: 0.4em;
+    }
+}
+
+@media (min-width: 600px) {
+    .volsChRating {
+        width: 328px;
+    }
+}
+
+@media (max-width: 767px) {
+    h2 {
+        font-size: 1.6em;
+    }
+}
+
+@media (max-width: 500px) {
+    h2 {
+        font-size: 1.4em;
+    }
+}
+
+@media (max-width: 500px) {
+    p {
+        line-height: 1.4;
+    }
+}
+
+@media screen and (max-width: 767px),
+(max-device-width: 767px) and (orientation: portrait),
+(max-device-width: 499px) and (orientation: landscape) {
+    .pure-table td {
+        padding: 0.4em;
+    }
+}
+
+@media (max-width: 500px) {
+    p {
+        line-height: 1.4;
+    }
+}
+
+@media (min-width: 768px) {
+    .collections .metadata .heartOn {
+        margin-right: 1em;
+    }
+}
+
+@media screen and (max-width: 767px),
+(max-device-width: 767px) and (orientation: portrait),
+(max-device-width: 499px) and (orientation: landscape) {
+    .pure-table td {
+        padding: 0.4em;
+    }
+}
+
+@media screen and (max-width: 767px),
+(max-device-width: 767px) and (orientation: portrait),
+(max-device-width: 499px) and (orientation: landscape) {
+    .pure-table td:last-child {
+        padding-right: 0.4em;
+    }
+}
+
+@media screen and (max-width: 767px),
+(max-device-width: 767px) and (orientation: portrait),
+(max-device-width: 499px) and (orientation: landscape) {
+    .pure-table td {
+        padding: 0.4em;
+    }
+}
+
+@media screen and (max-width: 767px),
+(max-device-width: 767px) and (orientation: portrait),
+(max-device-width: 499px) and (orientation: landscape) {
+    .pure-table td:first-child {
+        padding-left: 0.4em;
+    }
+}
+
+@media (min-width: 600px) {
+    .volsChRating {
+        width: 328px;
+    }
+}
+
+@media (max-width: 767px) {
+    h2 {
+        font-size: 1.6em;
+    }
+}
+
+@media (max-width: 500px) {
+    h2 {
+        font-size: 1.4em;
+    }
+}
+
+@media (max-width: 500px) {
+    p {
+        line-height: 1.4;
+    }
+}
+
+@media screen and (max-width: 767px),
+(max-device-width: 767px) and (orientation: portrait),
+(max-device-width: 499px) and (orientation: landscape) {
+    .pure-table td {
+        padding: 0.4em;
+    }
+}
+
+@media (max-width: 500px) {
+    p {
+        line-height: 1.4;
+    }
+}
+
+@media (min-width: 768px) {
+    .collections .metadata .heartOn {
+        margin-right: 1em;
+    }
+}
+
+@media screen and (max-width: 767px),
+(max-device-width: 767px) and (orientation: portrait),
+(max-device-width: 499px) and (orientation: landscape) {
+    .pure-table td {
+        padding: 0.4em;
+    }
+}
+
+@media screen and (max-width: 767px),
+(max-device-width: 767px) and (orientation: portrait),
+(max-device-width: 499px) and (orientation: landscape) {
+    .pure-table td:last-child {
+        padding-right: 0.4em;
+    }
+}
+
+@media screen and (max-width: 767px),
+(max-device-width: 767px) and (orientation: portrait),
+(max-device-width: 499px) and (orientation: landscape) {
+    .pure-table td {
+        padding: 0.4em;
+    }
+}
+
+@media screen and (max-width: 767px),
+(max-device-width: 767px) and (orientation: portrait),
+(max-device-width: 499px) and (orientation: landscape) {
+    .pure-table td:first-child {
+        padding-left: 0.4em;
+    }
+}
+
+@media (min-width: 600px) {
+    .volsChRating {
+        width: 328px;
+    }
+}
+
+@media (max-width: 767px) {
+    h2 {
+        font-size: 1.6em;
+    }
+}
+
+@media (max-width: 500px) {
+    h2 {
+        font-size: 1.4em;
+    }
+}
+
+@media (max-width: 500px) {
+    p {
+        line-height: 1.4;
+    }
+}
+
+@media screen and (max-width: 767px),
+(max-device-width: 767px) and (orientation: portrait),
+(max-device-width: 499px) and (orientation: landscape) {
+    .pure-table td {
+        padding: 0.4em;
+    }
+}
+
+@media (max-width: 500px) {
+    p {
+        line-height: 1.4;
+    }
+}
+
+@media (min-width: 768px) {
+    .collections .metadata .heartOn {
+        margin-right: 1em;
+    }
+}
+
+@media screen and (max-width: 767px),
+(max-device-width: 767px) and (orientation: portrait),
+(max-device-width: 499px) and (orientation: landscape) {
+    .pure-table td {
+        padding: 0.4em;
+    }
+}
+
+@media screen and (max-width: 767px),
+(max-device-width: 767px) and (orientation: portrait),
+(max-device-width: 499px) and (orientation: landscape) {
+    .pure-table td:last-child {
+        padding-right: 0.4em;
+    }
+}
+
+@media screen and (max-width: 767px),
+(max-device-width: 767px) and (orientation: portrait),
+(max-device-width: 499px) and (orientation: landscape) {
+    .pure-table td {
+        padding: 0.4em;
+    }
+}
+
+@media screen and (max-width: 767px),
+(max-device-width: 767px) and (orientation: portrait),
+(max-device-width: 499px) and (orientation: landscape) {
+    .pure-table td:first-child {
+        padding-left: 0.4em;
+    }
+}
+
+@media (min-width: 600px) {
+    .volsChRating {
+        width: 328px;
+    }
+}
+
+@media (max-width: 767px) {
+    h2 {
+        font-size: 1.6em;
+    }
+}
+
+@media (max-width: 500px) {
+    h2 {
+        font-size: 1.4em;
+    }
+}
+
+@media (max-width: 500px) {
+    p {
+        line-height: 1.4;
+    }
+}
+
+@media screen and (max-width: 767px),
+(max-device-width: 767px) and (orientation: portrait),
+(max-device-width: 499px) and (orientation: landscape) {
+    .pure-table td {
+        padding: 0.4em;
+    }
+}
+
+@media (max-width: 500px) {
+    p {
+        line-height: 1.4;
+    }
+}
+
+@media (min-width: 768px) {
+    .collections .metadata .heartOn {
+        margin-right: 1em;
+    }
+}
+
+@media screen and (max-width: 767px),
+(max-device-width: 767px) and (orientation: portrait),
+(max-device-width: 499px) and (orientation: landscape) {
+    .pure-table td {
+        padding: 0.4em;
+    }
+}
+
+@media screen and (max-width: 767px),
+(max-device-width: 767px) and (orientation: portrait),
+(max-device-width: 499px) and (orientation: landscape) {
+    .pure-table td:last-child {
+        padding-right: 0.4em;
+    }
+}
+
+@media screen and (max-width: 767px),
+(max-device-width: 767px) and (orientation: portrait),
+(max-device-width: 499px) and (orientation: landscape) {
+    .pure-table td {
+        padding: 0.4em;
+    }
+}
+
+@media screen and (max-width: 767px),
+(max-device-width: 767px) and (orientation: portrait),
+(max-device-width: 499px) and (orientation: landscape) {
+    .pure-table td:first-child {
+        padding-left: 0.4em;
+    }
+}
+
+@media (min-width: 600px) {
+    .volsChRating {
+        width: 328px;
+    }
+}
+
+@media (max-width: 767px) {
+    h2 {
+        font-size: 1.6em;
+    }
+}
+
+@media (max-width: 500px) {
+    h2 {
+        font-size: 1.4em;
+    }
+}
+
+@media (max-width: 500px) {
+    p {
+        line-height: 1.4;
+    }
+}
+
+@media screen and (max-width: 767px),
+(max-device-width: 767px) and (orientation: portrait),
+(max-device-width: 499px) and (orientation: landscape) {
+    .pure-table td {
+        padding: 0.4em;
+    }
+}
+
+@media (max-width: 500px) {
+    p {
+        line-height: 1.4;
+    }
+}
+
+@media (min-width: 768px) {
+    .collections .metadata .heartOn {
+        margin-right: 1em;
+    }
+}
+
+@media screen and (max-width: 767px),
+(max-device-width: 767px) and (orientation: portrait),
+(max-device-width: 499px) and (orientation: landscape) {
+    .pure-table td {
+        padding: 0.4em;
+    }
+}
+
+@media screen and (max-width: 767px),
+(max-device-width: 767px) and (orientation: portrait),
+(max-device-width: 499px) and (orientation: landscape) {
+    .pure-table td:last-child {
+        padding-right: 0.4em;
+    }
+}
+
+@media screen and (max-width: 767px),
+(max-device-width: 767px) and (orientation: portrait),
+(max-device-width: 499px) and (orientation: landscape) {
+    .pure-table td {
+        padding: 0.4em;
+    }
+}
+
+@media screen and (max-width: 767px),
+(max-device-width: 767px) and (orientation: portrait),
+(max-device-width: 499px) and (orientation: landscape) {
+    .pure-table td:first-child {
+        padding-left: 0.4em;
+    }
+}
+
+@media (min-width: 600px) {
+    .volsChRating {
+        width: 328px;
+    }
+}
+
+@media (max-width: 767px) {
+    h2 {
+        font-size: 1.6em;
+    }
+}
+
+@media (max-width: 500px) {
+    h2 {
+        font-size: 1.4em;
+    }
+}
+
+@media (max-width: 500px) {
+    p {
+        line-height: 1.4;
+    }
+}
+
+@media screen and (max-width: 767px),
+(max-device-width: 767px) and (orientation: portrait),
+(max-device-width: 499px) and (orientation: landscape) {
+    .pure-table td {
+        padding: 0.4em;
+    }
+}
+
+@media (max-width: 500px) {
+    p {
+        line-height: 1.4;
+    }
+}
+
+@media (min-width: 768px) {
+    .collections .metadata .heartOn {
+        margin-right: 1em;
+    }
+}
+
+@media screen and (max-width: 767px),
+(max-device-width: 767px) and (orientation: portrait),
+(max-device-width: 499px) and (orientation: landscape) {
+    .pure-table td {
+        padding: 0.4em;
+    }
+}
+
+@media screen and (max-width: 767px),
+(max-device-width: 767px) and (orientation: portrait),
+(max-device-width: 499px) and (orientation: landscape) {
+    .pure-table td:last-child {
+        padding-right: 0.4em;
+    }
+}
+
+@media screen and (max-width: 767px),
+(max-device-width: 767px) and (orientation: portrait),
+(max-device-width: 499px) and (orientation: landscape) {
+    .pure-table td {
+        padding: 0.4em;
+    }
+}
+
+@media screen and (max-width: 767px),
+(max-device-width: 767px) and (orientation: portrait),
+(max-device-width: 499px) and (orientation: landscape) {
+    .pure-table td:first-child {
+        padding-left: 0.4em;
+    }
+}
+
+@media (min-width: 600px) {
+    .volsChRating {
+        width: 328px;
+    }
+}
+
+@media (max-width: 767px) {
+    h2 {
+        font-size: 1.6em;
+    }
+}
+
+@media (max-width: 500px) {
+    h2 {
+        font-size: 1.4em;
+    }
+}
+
+@media (max-width: 500px) {
+    p {
+        line-height: 1.4;
+    }
+}
+
+@media screen and (max-width: 767px),
+(max-device-width: 767px) and (orientation: portrait),
+(max-device-width: 499px) and (orientation: landscape) {
+    .pure-table td {
+        padding: 0.4em;
+    }
+}
+
+@media (max-width: 500px) {
+    p {
+        line-height: 1.4;
+    }
+}
+
+@media (min-width: 768px) {
+    .collections .metadata .heartOn {
+        margin-right: 1em;
+    }
+}
+
+@media screen and (max-width: 767px),
+(max-device-width: 767px) and (orientation: portrait),
+(max-device-width: 499px) and (orientation: landscape) {
+    .pure-table td {
+        padding: 0.4em;
+    }
+}
+
+@media screen and (max-width: 767px),
+(max-device-width: 767px) and (orientation: portrait),
+(max-device-width: 499px) and (orientation: landscape) {
+    .pure-table td:last-child {
+        padding-right: 0.4em;
+    }
+}
+
+@media screen and (max-width: 767px),
+(max-device-width: 767px) and (orientation: portrait),
+(max-device-width: 499px) and (orientation: landscape) {
+    .pure-table td {
+        padding: 0.4em;
+    }
+}
+
+@media screen and (max-width: 767px),
+(max-device-width: 767px) and (orientation: portrait),
+(max-device-width: 499px) and (orientation: landscape) {
+    .pure-table td:first-child {
+        padding-left: 0.4em;
+    }
+}
+
+@media (min-width: 600px) {
+    .volsChRating {
+        width: 328px;
+    }
+}
+
+@media (max-width: 767px) {
+    h2 {
+        font-size: 1.6em;
+    }
+}
+
+@media (max-width: 500px) {
+    h2 {
+        font-size: 1.4em;
+    }
+}
+
+@media (max-width: 500px) {
+    p {
+        line-height: 1.4;
+    }
+}
+
+@media screen and (max-width: 767px),
+(max-device-width: 767px) and (orientation: portrait),
+(max-device-width: 499px) and (orientation: landscape) {
+    .pure-table td {
+        padding: 0.4em;
+    }
+}
+
+@media (max-width: 500px) {
+    p {
+        line-height: 1.4;
+    }
+}
+
+@media (min-width: 768px) {
+    .collections .metadata .heartOn {
+        margin-right: 1em;
+    }
+}
+
+@media screen and (max-width: 767px),
+(max-device-width: 767px) and (orientation: portrait),
+(max-device-width: 499px) and (orientation: landscape) {
+    .pure-table td {
+        padding: 0.4em;
+    }
+}
+
+@media screen and (max-width: 767px),
+(max-device-width: 767px) and (orientation: portrait),
+(max-device-width: 499px) and (orientation: landscape) {
+    .pure-table td:last-child {
+        padding-right: 0.4em;
+    }
+}
+
+@media screen and (max-width: 767px),
+(max-device-width: 767px) and (orientation: portrait),
+(max-device-width: 499px) and (orientation: landscape) {
+    .pure-table td {
+        padding: 0.4em;
+    }
+}
+
+@media screen and (max-width: 767px),
+(max-device-width: 767px) and (orientation: portrait),
+(max-device-width: 499px) and (orientation: landscape) {
+    .pure-table td:first-child {
+        padding-left: 0.4em;
+    }
+}
+
+@media (min-width: 600px) {
+    .volsChRating {
+        width: 328px;
+    }
+}
+
+@media (max-width: 767px) {
+    h2 {
+        font-size: 1.6em;
+    }
+}
+
+@media (max-width: 500px) {
+    h2 {
+        font-size: 1.4em;
+    }
+}
+
+@media (max-width: 500px) {
+    p {
+        line-height: 1.4;
+    }
+}
+
+@media screen and (max-width: 767px),
+(max-device-width: 767px) and (orientation: portrait),
+(max-device-width: 499px) and (orientation: landscape) {
+    .pure-table td {
+        padding: 0.4em;
+    }
+}
+
+@media (max-width: 500px) {
+    p {
+        line-height: 1.4;
+    }
+}
+
+@media (min-width: 768px) {
+    .collections .metadata .heartOn {
+        margin-right: 1em;
+    }
+}
+
+@media screen and (max-width: 767px),
+(max-device-width: 767px) and (orientation: portrait),
+(max-device-width: 499px) and (orientation: landscape) {
+    .pure-table td {
+        padding: 0.4em;
+    }
+}
+
+@media screen and (max-width: 767px),
+(max-device-width: 767px) and (orientation: portrait),
+(max-device-width: 499px) and (orientation: landscape) {
+    .pure-table td:last-child {
+        padding-right: 0.4em;
+    }
+}
+
+@media screen and (max-width: 767px),
+(max-device-width: 767px) and (orientation: portrait),
+(max-device-width: 499px) and (orientation: landscape) {
+    .pure-table td {
+        padding: 0.4em;
+    }
+}
+
+@media screen and (max-width: 767px),
+(max-device-width: 767px) and (orientation: portrait),
+(max-device-width: 499px) and (orientation: landscape) {
+    .pure-table td:first-child {
+        padding-left: 0.4em;
+    }
+}
+
+@media (min-width: 600px) {
+    .volsChRating {
+        width: 328px;
+    }
+}
+
+@media (max-width: 767px) {
+    h2 {
+        font-size: 1.6em;
+    }
+}
+
+@media (max-width: 500px) {
+    h2 {
+        font-size: 1.4em;
+    }
+}
+
+@media (max-width: 500px) {
+    p {
+        line-height: 1.4;
+    }
+}
+
+@media screen and (max-width: 767px),
+(max-device-width: 767px) and (orientation: portrait),
+(max-device-width: 499px) and (orientation: landscape) {
+    .pure-table td {
+        padding: 0.4em;
+    }
+}
+
+@media (max-width: 500px) {
+    p {
+        line-height: 1.4;
+    }
+}
+
+@media (min-width: 768px) {
+    .collections .metadata .heartOn {
+        margin-right: 1em;
+    }
+}
+
+@media screen and (max-width: 767px),
+(max-device-width: 767px) and (orientation: portrait),
+(max-device-width: 499px) and (orientation: landscape) {
+    .pure-table td {
+        padding: 0.4em;
+    }
+}
+
+@media screen and (max-width: 767px),
+(max-device-width: 767px) and (orientation: portrait),
+(max-device-width: 499px) and (orientation: landscape) {
+    .pure-table td:last-child {
+        padding-right: 0.4em;
+    }
+}

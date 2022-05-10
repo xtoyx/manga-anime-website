@@ -1,0 +1,31 @@
+{
+    "name": "12-web-scraping",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "dev": "nodemon server.js"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "axios": "^0.21.4",
+        "bcryptjs": "^2.4.3",
+        "chalk": "^3.0.0",
+        "cheerio": "^1.0.0-rc.10",
+        "cloudinary": "^1.29.1",
+        "cookie-parser": "^1.4.6",
+        "cors": "^2.8.5",
+        "express": "^4.18.1",
+        "express-easy-zip": "^1.1.5",
+        "file-saver": "^2.0.5",
+        "image-downloader": "^4.2.0",
+        "jsonwebtoken": "^8.5.1",
+        "jszip": "^3.9.1",
+        "jszip-utils": "^0.1.0",
+        "mongoose": "^6.3.1",
+        "node-fetch": "^2.6.7",
+        "nodemon": "^2.0.16"
+    }
+}
