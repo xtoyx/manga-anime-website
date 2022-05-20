@@ -52,7 +52,7 @@ if(StartShowing && data.Mangas){
     clearTimeout(t);
     hooe=data.Mangas.sort((a, b) => parseFloat(b.views) - parseFloat(a.views));
     if(recentupdated.length < 6){
-        fetch("http://localhost:5001/m/Lastest", {
+        fetch(process.env.Remote_Server_IP+":5001/m/Lastest", {
                                         method: "GET",
                                         credentials: "include",
                                         headers: {
@@ -91,7 +91,7 @@ if(StartShowing && data.Mangas){
         if(Liked_by_TheCreator.length<4){
             var IneedHelp=[]
             try{
-                fetch("http://localhost:5001/MangaLikedByAdmin/", {
+                fetch(process.env.Remote_Server_IP+":5001/MangaLikedByAdmin/", {
                                             method: "GET",
                                             credentials: "include",
                                             headers: {
@@ -106,7 +106,7 @@ if(StartShowing && data.Mangas){
                                         .then((resObject) => {
                                             // setLikedBy_TheCreator(resObject)
                                             resObject[0].Liked.map((value,index)=>{
-                                                fetch("http://localhost:5001/m/findbyid", {
+                                                fetch(process.env.Remote_Server_IP+":5001/m/findbyid", {
                                                     method: "POST",
                                                     credentials: "include",
                                                     headers: {

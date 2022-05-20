@@ -18,7 +18,8 @@ const error = chalk.bold.red;
 const warning = chalk.hex('#FFA500');
 const GoodTogo=chalk.bold.green;
 app.use(cors({
-        origin: "http://localhost:3000",
+        // origin: "http://localhost:3000" ,
+        origin:process.env.Remote_Server_IP+":3000",
         methods: "GET,POST,PUT,DELETE",
         credentials: true,
     }))

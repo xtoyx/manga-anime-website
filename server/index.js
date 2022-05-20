@@ -34,7 +34,7 @@ app.use(passport.session());
 app.use(express.json({ limit: '50mb' }));
 app.use(express.urlencoded({ limit: '50mb', extended: true }));
 app.use(cors({
-    origin: "http://localhost:3000",
+    origin: process.env.Remote_Server_IP+":3000",
     methods: "GET,POST,PUT,DELETE",
     credentials: true,
 }))
